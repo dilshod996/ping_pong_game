@@ -3,6 +3,7 @@ from turtle import Turtle, Screen
 from player import Player
 from ball import Ball
 from scoreboard import Scoreboard
+from design import Line
 
 
 screen = Screen()
@@ -15,6 +16,7 @@ player1 = Player((350, 0))
 player2 = Player((-350, 0))
 ball = Ball()
 scoreboard = Scoreboard()
+design = Line()
 
 screen.listen()
 
